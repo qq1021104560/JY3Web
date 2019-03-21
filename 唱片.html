@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.Record {
+				width: 450px;
+				height: 450px;
+				border: 1px solid red;
+				border-radius: 50%;
+				display: flex;
+				margin: auto;
+				background-color: #000104bd;	
+				/* animation:rotate 30s infinite;
+                animation-timing-function: linear;*/
+			}
+			.photo {
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+               margin:  auto;
+			}
+			.photo img {
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+			}
+			@keyframes rotate{
+				0%{transform: rotate(0deg);}
+			/*	20%{transform: rotate(73deg);}
+				40%{transform: rotate(164deg);}
+				60%{transform: rotate(219deg);}
+				80%{transform: rotate(292deg);}*/
+				100%{transform: rotate(360deg);}
+			}
+			.Record:hover {
+				 animation:rotate 10s infinite;
+                animation-timing-function: linear;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Record">
+			<div class="photo"><img  src="../img/微信图片_20190315180122.jpg"/></div>
+		</div>
+	</body>
+</html>
