@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>	
+		<style>
+			#one {
+				width: 500px;
+				height: 500px;
+				background-color: aquamarine;
+				display: none;
+				transition: display 2s;
+			}
+		</style>
+	 <script type="text/javascript" src="../js/jquery.js">	</script>
+	</head>
+	<body>
+			<img id="img-in" src="../img/短信.svg"/>
+		    <div id="one"></div>
+	</body>
+	<script type="text/javascript">
+	$(function(){
+		$("#img-in").click(function() {
+			$("#one").toggle(400)
+		})
+	})
+	</script>
+</html>
