@@ -42,7 +42,7 @@
 .box-bottom {
 	width: 100%;
 	height: 75px;
-	background-color: #e7e7e7;
+	background-color: #f1f1f1;
 	position: fixed;
 	bottom: 0;
 	display: flex;
@@ -58,14 +58,14 @@
 .box-bottom img {
 	width: 30px;
 	height: 30px;
-	margin-top: 8px;
+	margin: 8px;
 }
 .box-bottom span {
 	font-size: 13px;
 	display: block;
 	text-align: center;
 }
-/*这是底部固定↑*/
+/*这是底部  固定↑*/
 
 
 
@@ -147,7 +147,7 @@
 
 .god {
 	width: 100%;
-    height: 82.5px;
+    height: 62.5px;
 }
 .ged{
 	width: 100%;
@@ -168,9 +168,9 @@
 	
 }
 .box-in{
-    width: 100%;
-	height: 94%;
-	background:url(../img/fdca0a55b319ebc45b703c898c26cffc1f171695.jpg);
+  
+  
+	background-image:url(../img/9d23bc3eb13533fa19d123a3a4d3fd1f43345bd7.jpg) ;
 	background-repeat:no-repeat ;
 	background-size:100% 100%;
 	
@@ -193,3 +193,12 @@
 	  margin: 0 15px 0 0;
 	  color: #2f33ef6e;
 }
+a{
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  color: black;
+}
+
+
