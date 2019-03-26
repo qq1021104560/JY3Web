@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	<style type="text/css">
+	  .one {
+	   background-color: blue;
+	    border: 5px solid red;	
+	  }
+	  #two {
+	  	width: 200px;
+	  	height: 200px;
+	  }
+	</style>
+	<body>
+		<div id="good">
+              hello Jquery
+</div>
+		<div id="two"></div>
+        <div></div>
+       
+		<script>
+			$(function(){
+				$("#good").css("width","100px");
+				$("#good").css("height","100px");
+				$("#good").addClass("one");
+				$("#good").css("border","5px solid");
+				$("#good").css("background-color","palegreen");	
+				$("#good").next().next().css("width","100px");
+				$("#good").next().next().css("height","100px");
+				$("#good").next().next().css("background-color","pink");
+				alert($("#good").html())
+			})
+		</script>
+	</body>
+</html>
