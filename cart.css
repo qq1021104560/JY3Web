@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#box {
+	width: 100%;
+	height: 800px;
+	background-color: #eaeaea;
+}
+#box-top {
+	width: 100%;
+	height: 100px;
+	background-color: #cf94ff;
+	display:flex;
+	position: fixed;
+	top: 0;
+	z-index: 16;
+}
+.top-left {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top-left img {
+	width: 115px;
+	height: 60px;
+	
+	
+}
+.top-right {
+	width: 50%;
+	height: 100%;
+}
+
+
+.right-top {
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title {
+	width: 60px;
+	height: 33px;
+	font-size: 20px;
+	background-color: #ffffcc63;
+	margin:0 10px 0;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title span {
+		color: black;
+}
+.right-bottom {
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#search {
+	height: 33px;
+    width: 131px;
+	text-indent: 10px;
+}
+.img-sousuo {
+	width: 25px;
+	height: 25px;
+}
+#kong {
+	width: 100%;
+	height: 185px;
+}
+/*导航*/
+
+#Navigation {
+	width: 100%;
+	height: 45px;
+	background-color: #E4E4E4;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 16px;
+	font-family:none; 
+	line-height:45px;
+	position: fixed;
+	top: 100px;
+	z-index: 16;
+}
+.Navigation1 {
+	width: 71px;
+	height: 31px;
+	background-color: white;
+	display: inline-block;
+	color: #FF9999;
+	text-align: center;
+	line-height: 31px;
+	border-radius: 5px;
+}
+#shopping-top {
+	height: 40px;
+	width: 100%;
+	background-color: #f5f2f2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 145px;
+	border-bottom: 0.5px solid #CCCCCC;
+}
+#shopping-top .title1 {
+	margin-left: 15px;
+	font-size: 18px;
+}
+#shopping-top .title2 {
+	flex: 0.3;
+	font-size: 20px;
+}
+#shopping-top .title3 img{
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+}
+#shopping-bottom {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	background-color: white;
+}
+#shopping-bottom .bottom-left{
+	height: 100%;
+	flex: 0.5;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#shopping-bottom .bottom-left .one {
+	font-size: 16px;
+	flex: 0.85;
+}
+#shopping-bottom .bottom-left img {
+	width: 30px;
+	height: 30px;
+	flex: 0.4;
+}
+#shopping-bottom .bottom-right{
+	height: 100%;
+	flex: 0.5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#shopping-bottom .bottom-right .bottom-right3 {
+	width: 40%;
+	height: 50px;
+	background-color: #FF6633;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	color: #f7e1e1;
+	font-size: 14px;
+}
+#shopping-bottom .bottom-right .bottom-right2 {
+	color: #FF6633;
+	font-size: 16px;
+}
+#shopping-bottom .bottom-right .bottom-right1 {
+	font-size: 16px;
+}
+#content1 {
+	height: 40px;
+	background-color: white;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+#content1 .content1-left {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#content1 .content1-left img {
+	width: 15px;
+	height: 15px;
+}
+#content1 .content1-left span {
+	font-size: 13px;
+}
+#content1 .content1-right {
+	width: 50%;
+	height: 100%;
+	font-size: 13px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 20px;
+}
+#content2 {
+	width:100%;
+	height: 100px;
+	display: flex;
+	justify-content:  space-between;
+	align-items: center;
+	background-color: #e0e0e0;
+	margin: 2px 0;
+}
+#content2 .img1 {
+	width: 30px;
+	height: 30px;
+	margin-left:10px ;
+}
+#content2 .img2 {
+	width: 80px;
+	height: 80px;
+}
+
+#content2 .content2-two {
+	height: 100px;
+	width: 50px;
+	background-color: #ff6633;
+	display: flex;
+	justify-content:center ;
+	align-items: center;
+}
+#content2 .content2-one {
+	height: 100%;
+	width: 180px;
+} 
+#content2 .content2-one .content2-top{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around ;
+	align-items: center;
+	font-size: 24px;
+}
+#content2 .content2-one .fuhao1{
+	font-size: 38px;
+}
+#content2 .content2-one .content2-bottom{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	justify-content:center ;
+	align-items: center;
+	font-size: 12px;
+}
+
+
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  
+  	
+}
+#Navigation .active1 {
+	background-color: #b7f5fe;
+}

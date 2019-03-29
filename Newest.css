@@ -125,7 +125,9 @@
 }
 .content-left1 ul {
 	list-style: none;
-
+}
+::-webkit-scrollbar {
+	display: none;
 }
 
 .content-left1 ul li {
@@ -136,6 +138,7 @@
 	height: 150px;
 	width: 100%;
 	margin-top: 5px;
+    border-bottom: 1px solid #e4e4e4;
 	
 	
 }
@@ -146,16 +149,16 @@
     height: 100%;
 }
 .content-right .hero  h6{
-	font-size: 30px;
-	margin:30px  0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #2d67bf;
+    font-size: 23px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #adadad;
 }
 .content-right img {
-	width: 65px;
-	height: 65px;
+	width: 76px;
+	height: 76px;
 }
 .content-right .hero1 {
 	display: flex;
@@ -179,6 +182,7 @@ a {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  color:#a6d1d2;
 }
 #Navigation .active1 {
 	background-color: #b7f5fe;
